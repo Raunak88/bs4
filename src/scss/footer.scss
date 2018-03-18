@@ -1,0 +1,25 @@
+.footer-section{
+	background:#c2b698;
+	color:white;
+	.fa{
+		padding:10px;
+		color:white;
+		border-radius:50%;
+		backgound:#D4CBB6;
+	}
+	a:link{
+		text-decoration:none;
+		color:white;
+		background:#D4CBB6;
+	}
+	a:hover{
+		color:#D4CBB6;
+		background:white;
+	}
+	.address{
+		border-width: 0 3px;
+		border-style:solid;
+		border-color:white;
+	}
+}
+

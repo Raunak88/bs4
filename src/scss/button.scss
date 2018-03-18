@@ -1,0 +1,23 @@
+.btn{
+			z-index: 7;
+		    white-space: nowrap;		    
+		    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+		    box-sizing: border-box;
+		    cursor: pointer;		    
+		    text-align: left;
+		    line-height: 25px;
+		    margin: 10px 0;
+		    letter-spacing: 7px;
+		    font-weight: 700;
+		    font-size: 18px;		    
+		    border:3px solid rgba(188,223,0,1.00);
+		    background-color: rgba(188,223,0,1.00);
+		    color:black;
+		}
+		.btn:hover{
+			border:3px solid rgba(188,223,0,1.00);
+			background-color: transparent;
+			color:rgba(188,223,0,1.00);
+			background-image: none;
+    		background-color: transparent;
+		}
