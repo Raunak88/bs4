@@ -7,7 +7,7 @@ var imagemin = require('gulp-imagemin');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/style.scss'])
+    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write())
@@ -39,4 +39,4 @@ gulp.task('serve', ['sass'], function() {
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 
-gulp.task('default', ['images','js','serve']);
+gulp.task('default', ['js','serve']);

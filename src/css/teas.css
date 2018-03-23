@@ -1,0 +1,15 @@
+.list-of-teas .card {
+  background: #EFEEED; }
+  .list-of-teas .card .card-img-top {
+    width: 65%;
+    border-radius: 50%;
+    margin: 1em auto; }
+  .list-of-teas .card .btn {
+    border: 3px solid #c2b698;
+    background-color: #c2b698;
+    color: white; }
+  .list-of-teas .card .btn:hover {
+    background: transparent;
+    color: #c2b698; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVhcy5jc3MiLCJzb3VyY2VzIjpbInRlYXMuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIubGlzdC1vZi10ZWFze1xyXG5cdC5jYXJke1xyXG5cdFx0YmFja2dyb3VuZDojRUZFRUVEO1xyXG5cdFx0LmNhcmQtaW1nLXRvcHtcclxuXHRcdFx0d2lkdGg6NjUlO1xyXG5cdFx0XHRib3JkZXItcmFkaXVzOiA1MCU7XHJcblx0ICAgIFx0bWFyZ2luOiAxZW0gYXV0bztcclxuXHRcdH1cclxuXHRcdC5idG57XHJcblx0XHRcdGJvcmRlcjogM3B4IHNvbGlkICNjMmI2OTg7XHJcbiAgICBcdFx0YmFja2dyb3VuZC1jb2xvcjogI2MyYjY5ODtcclxuICAgIFx0XHRjb2xvcjp3aGl0ZTtcclxuXHRcdH1cclxuXHRcdC5idG46aG92ZXJ7XHJcblx0XHRcdGJhY2tncm91bmQ6dHJhbnNwYXJlbnQ7XHJcblx0XHRcdGNvbG9yOiNjMmI2OTg7XHJcblx0XHR9XHJcblx0fVx0XHJcbn0iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsQUFDQyxhQURZLENBQ1osS0FBSyxDQUFBO0VBQ0osVUFBVSxFQUFDLE9BQU8sR0FlbEI7RUFqQkYsQUFHRSxhQUhXLENBQ1osS0FBSyxDQUVKLGFBQWEsQ0FBQTtJQUNaLEtBQUssRUFBQyxHQUFHO0lBQ1QsYUFBYSxFQUFFLEdBQUc7SUFDZixNQUFNLEVBQUUsUUFBUSxHQUNuQjtFQVBILEFBUUUsYUFSVyxDQUNaLEtBQUssQ0FPSixJQUFJLENBQUE7SUFDSCxNQUFNLEVBQUUsaUJBQWlCO0lBQ3RCLGdCQUFnQixFQUFFLE9BQU87SUFDekIsS0FBSyxFQUFDLEtBQUssR0FDZDtFQVpILEFBYUUsYUFiVyxDQUNaLEtBQUssQ0FZSixJQUFJLEFBQUEsTUFBTSxDQUFBO0lBQ1QsVUFBVSxFQUFDLFdBQVc7SUFDdEIsS0FBSyxFQUFDLE9BQU8sR0FDYiJ9 */

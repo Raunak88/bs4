@@ -1,6 +1,8 @@
+@media only screen and (min-width: 33.9em) { 
 .footer-section{
 	background:#c2b698;
 	color:white;
+
 	.fa{
 		padding:10px;
 		color:white;
@@ -17,9 +19,32 @@
 		background:white;
 	}
 	.address{
-		border-width: 0 3px;
-		border-style:solid;
-		border-color:white;
+		
+		margin: 2em 0;
 	}
 }
 
+ }
+// Small devices (phones, tablets less than 48em)
+@media only screen and (min-width: 47.9em) {
+.footer-section{
+	background:#c2b698;
+	color:white;	
+	.address{
+		border-width: 0 3px;
+		border-style:solid;
+		border-color:white;
+		margin:0
+	}
+}
+}
+ 
+// Medium devices (tablets, small laptops less than 62em)
+@media only screen and (min-width: 61.9em) {
+// write CSS properties here
+ }
+ 
+// Large devices (desktops, screens less than 75em)
+@media only screen and (min-width: 74.9em) { 
+// write CSS properties here
+}
