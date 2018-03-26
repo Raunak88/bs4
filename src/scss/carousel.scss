@@ -1,9 +1,33 @@
-.carousel-caption {
+@media only screen and (min-width: 33.9em) { 
+	
+	.carousel-caption {
+	    padding: 5% 0;
+	     h2{
+		  font-size: 3rem;
+		  text-align: center; 
+		}
+	}
+
+}
+@media only screen and (min-width: 47.9em) {
+ .carousel-caption {
+	    padding: 5% 0;
+	     h2{
+		  font-size: 3rem;
+		  text-align: center; 
+		}
+	}
+}
+@media only screen and (min-width: 61.9em) {
+
+	.carousel-caption {
 	    padding: 20% 0;
 	     h2{
 		  font-size: 5rem;
 		  text-align: center; 
 		}
-		
-
+	}
 }
+@media only screen and (min-width: 74.9em) { 
+ 
+}	

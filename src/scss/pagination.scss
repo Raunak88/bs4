@@ -8,12 +8,17 @@
 			width: 40px;
 			height: 40px;
 			line-height:40px;
-			border: 1px solid #FFF;
-			background-color: cadetblue;
+			border: 1px solid #c2b698;
+			background-color: #c2b698;
 			color: #FFF;
 			text-align: center;
 			cursor: pointer;
 			margin:0 5px;
+			border-radius :50%;
+		}
+		.active{
+		background:white;
+		color:#c2b698;
 		}
 	}
 }

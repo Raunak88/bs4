@@ -4,10 +4,11 @@
     line-height: 22px;
     padding-left: 0.5em;
 }
-
+.navbar-light .navbar-nav .nav-link{
+	margin: 0 8px;
+}
 .navbar-light .navbar-nav .nav-link.active{
     color: #c2b698;
-    
     border-bottom: 3px solid #c2b698;
     padding-left: 0;
     padding-right: 0;
