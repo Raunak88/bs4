@@ -1,9 +1,6 @@
 @media only screen and (min-width: 33.9em) { 
 
-
-}
-@media only screen and (min-width: 47.9em) {
- .intro-section{
+.intro-section{
 	.card{
 		.card-body {
 		    position: absolute;
@@ -21,11 +18,11 @@
 	    	
 	    	
 		}
-	}	
-}  
+	
+
 }
-@media only screen and (min-width: 61.9em) {
-.intro-section{
+@media only screen and (min-width: 47.9em) {
+ .intro-section{
 	.card{
 		.card-body {
 		    position: absolute;
@@ -42,7 +39,10 @@
 	    	text-align:center;
 		}
 	}	
-}  
+} 
+}
+@media only screen and (min-width: 61.9em) {
+ 
 
 }
 @media only screen and (min-width: 74.9em) { 
