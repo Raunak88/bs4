@@ -11,6 +11,8 @@
 
         });
 
+        $('.pagination ul li:first').addClass('active');
+        $('.pagination ul').addClass('mx-auto');
     });
 
 }(jQuery));

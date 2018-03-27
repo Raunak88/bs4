@@ -1,4 +1,4 @@
-@include media-breakpoint-up(xs) { 
+@media (max-width: 575.98px) {
 .footer-section{
 	background:#c2b698;
 	color:white;
@@ -22,9 +22,13 @@
 		
 		margin: 2em 0;
 	}
-} 
-}
-@include media-breakpoint-up(sm) { .footer-section{
+	} 
+
+ }
+
+
+@media (min-width: 768px) { 
+.footer-section{
 	background:#c2b698;
 	color:white;	
 	.address{
@@ -32,7 +36,22 @@
 		border-style:solid;
 		border-color:white;
 		margin:0
-	} }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
+	} 
+	.fa{
+		padding:10px;
+		color:white;
+		border-radius:50%;
+		backgound:#D4CBB6;
+	}
+	a:link{
+		text-decoration:none;
+		color:white;
+		background:#D4CBB6;
+	}
+	a:hover{
+		color:#D4CBB6;
+		background:white;
+	}
+}
+}
+
