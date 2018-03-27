@@ -37,14 +37,22 @@
 		}
 		.card-title{
 			line-height: 1.6;
-	    	letter-spacing: 8.5px;
+	    	letter-spacing: 0.5px;
 	    	text-align:center;
 		}
 	}	
 } 
 }
 @media only screen and (min-width: 61.9em) {
- 
+ .intro-section{
+	.card{
+	.card-title{
+			line-height: 1.6;
+	    	letter-spacing: 8.5px;
+	    	text-align:center;
+		}
+		}
+		}
 
 }
 @media only screen and (min-width: 74.9em) { 
