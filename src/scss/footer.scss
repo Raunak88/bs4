@@ -1,4 +1,4 @@
-@media only screen and (min-width: 33.9em) { 
+@include media-breakpoint-up(xs) { 
 .footer-section{
 	background:#c2b698;
 	color:white;
@@ -22,12 +22,9 @@
 		
 		margin: 2em 0;
 	}
+} 
 }
-
- }
-// Small devices (phones, tablets less than 48em)
-@media only screen and (min-width: 47.9em) {
-.footer-section{
+@include media-breakpoint-up(sm) { .footer-section{
 	background:#c2b698;
 	color:white;	
 	.address{
@@ -35,16 +32,7 @@
 		border-style:solid;
 		border-color:white;
 		margin:0
-	}
-}
-}
- 
-// Medium devices (tablets, small laptops less than 62em)
-@media only screen and (min-width: 61.9em) {
-// write CSS properties here
- }
- 
-// Large devices (desktops, screens less than 75em)
-@media only screen and (min-width: 74.9em) { 
-// write CSS properties here
-}
+	} }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
