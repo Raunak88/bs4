@@ -3,13 +3,13 @@
     "short_name": "Seven Essence",
     "icons": [
         {
-            "src": "/android-chrome-144x144.png",
+            "src": "android-chrome-144x144.png",
             "sizes": "144x144",
             "type": "image/png"
         }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "/",
+    "start_url": "https://raunak88.github.io/bs4/src/",
     "display": "standalone"
 }
